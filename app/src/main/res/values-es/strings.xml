@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
+     SPDX-FileCopyrightText: 2022-2025 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -33,7 +33,7 @@
     <string name="mic_on">CON MIC.</string>
     <string name="settings">AJUSTES</string>
     <string name="app_permissions_toast">Permisos no otorgados por el usuario.</string>
-    <string name="camcorder_unsupported_toast">Ninguna cámara soporta grabación de video.</string>
+    <string name="camcorder_unsupported_toast">Ninguna cámara soporta grabación de vídeo.</string>
     <string name="qr_copy_description">Copiar al portapapeles</string>
     <string name="qr_icon_description">Icono</string>
     <string name="qr_share_description">Compartir</string>
@@ -86,9 +86,9 @@
     <string name="camera_button_action_title">Acción del botón de la cámara</string>
     <string name="focus_button_action_title">Acción del botón de enfoque</string>
     <string name="mute_button_action_title">Acción del botón de silencio</string>
-    <string name="volume_buttons_title">Botones de volumen</string>
-    <string name="volume_buttons_action_title">Acción de los botones de volumen</string>
-    <string name="volume_buttons_invert_title">Invertir botones de volumen</string>
+    <string name="volume_buttons_title">Botones del volumen</string>
+    <string name="volume_buttons_action_title">Acción de los botones del volumen</string>
+    <string name="volume_buttons_invert_title">Invertir botones del volumen</string>
     <string name="volume_buttons_invert_summary">Invertir el comportamiento de subir y bajar el volumen</string>
     <string name="zoom_buttons_title">Botones de acercar y alejar</string>
     <string name="zoom_buttons_action_title">Acción de los botones de acercar y alejar</string>
@@ -99,6 +99,12 @@
     <string name="photo_capture_mode_minimize_latency">Minimizar latencia</string>
     <string name="enable_zsl_title">Habilitar ZSL cuando esté disponible</string>
     <string name="enable_zsl_summary">Utiliza el modo sin retardo de obturación cuando la cámara lo admita. En este modo, los efectos fotográficos están desactivados. Ten en cuenta que este modo es actualmente experimental</string>
+    <string name="use_photo_jpeg_ultra_hdr_title">Guardar imágenes como JPEG Ultra HDR</string>
+    <string name="use_photo_jpeg_ultra_hdr_summary">Guardar imágenes como JPEG Ultra HDR cuando esté disponible para mejorar las imágenes HDR</string>
+    <string name="enable_raw_image_capture_title">Habilitar la captura de imágenes RAW</string>
+    <string name="enable_raw_image_capture_summary">Habilitar la captura de imágenes RAW. Las fotos no se pueden guardar como JPEG Ultra HDR cuando la captura RAW está habilitada.</string>
+    <string name="disable_jpeg_with_raw_title">Desactivar JPEG con RAW</string>
+    <string name="disable_jpeg_with_raw_summary">Deshabilitar JPEG cuando la captura de imágenes RAW esté habilitada</string>
     <string name="photo_ffc_mirror_title">Voltear cámara frontal</string>
     <string name="photo_ffc_mirror_summary">Guardar las fotos de la cámara frontal como aparecen en la vista previa</string>
     <string name="video_stabilization_title">Habilitar estabilización de vídeo</string>

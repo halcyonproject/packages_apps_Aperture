@@ -7,20 +7,18 @@
     <!-- Base application theme. -->
     <style name="Theme.Aperture" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
         <item name="dialogCornerRadius">28dp</item>
+        <item name="enableEdgeToEdge">true</item>
     </style>
 
     <!-- Main activity theme. -->
     <style name="Theme.Aperture.Camera" parent="Theme.Material3.Dark.NoActionBar">
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="O_MR1">
             shortEdges
         </item>
-        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="enableEdgeToEdge">true</item>
     </style>
 
     <!-- Secondary bar icons base theme -->
@@ -52,11 +50,10 @@
     </style>
 
     <!-- Info chip -->
-    <style name="Theme.Aperture.Camera.InfoChip" />
-
-    <style name="Theme.Aperture.Camera.InfoChip.ImageView">
-        <item name="android:layout_width">16dp</item>
-        <item name="android:layout_height">16dp</item>
-        <item name="android:visibility">gone</item>
+    <style name="Theme.Aperture.Camera.Island.ImageView" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">2dp</item>
     </style>
 </resources>
